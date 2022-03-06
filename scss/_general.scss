@@ -15,7 +15,12 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	font-family:  'Arial', 'sans-serif';
+	font-family: 'Manrope' ,'Arial', 'sans-serif';
+	background-color: #242326;
+	background-image: url(../images/bgline.png)  , url(../images/linear-g.png);
+	// background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center,top -100px left 374px;;
 	margin: 0;
 	padding: 0;
 }
@@ -24,9 +29,16 @@ img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
-  object-fit: cover;
+	object-fit: cover;
 }
 
 .main {
 	flex-grow: 1;
+}
+
+@media only screen and (max-width : 426px){
+	body{
+		background-image: none, url(../images/linear-g.png);
+		background-position: top left -399px;
+	}
 }

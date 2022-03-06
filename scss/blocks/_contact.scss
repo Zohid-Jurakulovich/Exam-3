@@ -1,0 +1,217 @@
+.contact__box{
+  display: flex;
+}
+
+.contact__info{
+  margin-right: 60px;
+}
+
+.form{
+  width: 711px;
+}
+
+.form__name{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form__name-box{
+  margin-right: 30px;
+}
+
+.form__subname{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.form__input-name{
+  width:  393px;
+  padding: 14px 25px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.form__company-name{
+  width: 288px;
+  padding: 14px 25px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.form__contact{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form__input-contact{
+  width: 338px;
+  padding: 14px 25px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.form__site{
+  display: flex;  
+  margin-bottom: 20px;
+}
+
+.form__site-box{
+  margin-right: 30px;
+}
+
+.form__site-select{
+  width: 287px;
+  padding: 14px 25px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.form__site-select--active{
+  width: 394px;
+}
+
+.form__option{
+  color: black;
+}
+
+.form__textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 14px 25px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  resize: none;
+}
+
+.form__button{
+  margin-bottom: 235px;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #0040DD;
+  border-radius: 50px;
+  border: none;
+}
+
+.summary{
+  max-width: 440px;
+}
+
+.summary__title{
+  margin: 0 0 30px 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.summary__text{
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width:426px){
+
+  .contact__box{
+    flex-direction: column-reverse;
+  }
+
+  .contact__info{
+    margin-right: 0;
+  }
+  
+  .summary{
+    margin-bottom: 40px;
+  }
+
+  .form{
+    max-width: 386px;
+    width: 100%;
+  }
+
+  .form__name{
+    flex-direction: column;
+    margin-bottom: 30px;
+
+  }
+
+  .form__name-box{
+    margin: 0;
+  }
+
+
+  .form__input-name{
+    max-width: 386px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .form__company-name{
+    max-width: 386px;
+    width: 100%;
+  }
+
+  .form__contact{
+    flex-direction: column;
+  }
+
+  .form__tg-box{
+    margin-bottom: 30px;
+  }
+
+  .form__input-contact{
+    max-width: 386px;
+    width: 100%;
+  }
+
+  .form__site{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .form__site-box{
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .form__site-select{
+    max-width: 386px;
+    width: 100%;
+  }
+
+  .form__summary{
+    display: none;
+  }
+  .form__button{
+    display: flex;
+    max-width: 386px;
+    width: 100%;
+    margin-bottom: 65px;
+
+  }
+
+  .form__btn-img{
+    margin-left: auto;
+  }
+}

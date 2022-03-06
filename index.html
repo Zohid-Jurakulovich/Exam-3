@@ -5,9 +5,161 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template Repo</title>
+  <title>exam-3</title>
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__elements">
+        <a href="/index.html" class="header__link">
+          <img class="header__img" src="./images/logo.svg" alt="site-logo">
+        </a>
+        
+        <nav class="header__navbar navbar">
+          <ol class="navbar__list">
+            <li class="navbar__item ">
+              <a class="navbar__link" href="/">Services</a>
+            </li>
+            
+            <li class="navbar__item navbar__item--active">
+              <a class="navbar__link" href="/">Portfolio</a>
+            </li>
+            
+            <li class="navbar__item">
+              <a class="navbar__link" href="/">About us</a>
+            </li>
+          </ol>
+        </nav>
 
+        <div class="header__languages languages">
+          <ul class="languages__list">
+            <li class="languages__item">
+              <a class="languages__link" href="#">
+                Uz
+              </a>
+            </li>
+
+            <li class="languages__item languages__item--active">
+              <a class="languages__link" href="#">
+                Ru
+              </a>
+            </li>
+
+            <li class="languages__item">
+              <a class="languages__link" href="#">
+                En
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <button class="header__hamburg-btn" type="button">
+          <img src="./images/hamburg-btn.svg" alt="">
+        </button>
+      </div>
+      
+      
+      
+    </div>
+  </header>
+
+  <main>
+    <section class="contact">
+      <div class="container">
+        <div class="contact__box">
+          <div class="contact__info">
+            <form class="form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+              <div class="form__name">
+                <div class="form__name-box">
+                  <span class="form__subname">
+                    Ism Familiya
+                  </span>
+                  <input class="form__input-name" type="text" name="fullname" aria-label="fullname" placeholder="Ismingizni kiriting" required>
+                
+                </div>
+
+                <div class="form__company">
+                  <span class="form__subname">
+                    Companiyani kiriting
+                  </span>
+                  <input class="form__company-name" type="text" name="company" aria-label="company" placeholder="Companiya" required>
+                </div>
+              </div>
+
+              <div class="form__contact">
+                <div class="form__tg-box">
+                  <span class="form__subname">
+                    Telegram username
+                  </span>
+                  <input class="form__input-contact" type="text" name="telegram-username" aria-label="telegram-username" placeholder="Username" required>
+                
+                </div>
+
+                <div class="form__phone">
+                  <span class="form__subname">
+                    Phone number
+                  </span>
+                  <input class="form__input-contact" type="tel" name="Phone" aria-label="Phone" placeholder="+998 99" required>
+                </div>
+              </div>
+
+              <div class="form__site">
+                <div class="form__site-box">
+                  <span class="form__subname">
+                    Sayni turini tanlang
+                  </span>
+
+                 <select class="form__site-select" aria-label="site" name="site" required>
+                   <option class="form__option"  value="Corparative sayt">
+                    Corparative sayt
+                   </option>
+                   <option class="form__option" value="Corparative sayt">
+                    oddiy sayt
+                   </option>
+                 </select>
+                
+                </div>
+
+                <div class="form__phone">
+                  <span class="form__subname">
+                    Sizga bo’glanish usulini tanlang
+                  </span>
+                  <select class="form__site-select form__site-select--active" aria-label="social-media" name="social-media" id="social-media" required>
+                    <option class="form__option" value="Telegram">Telegram</option>
+                    <option class="form__option" value="Instagram">Instagram</option>
+                    <option class="form__option" value="Twitter">Twitter</option>
+                    <option class="form__option" value="Facebook">Facebook</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form__summary">
+                <span class="form__subname">
+                  Message
+                </span>
+                <textarea class="form__textarea" name="Message" id="Message" cols="30" rows="8" ></textarea>
+              </div>
+
+              <button class="form__button" type="submit">
+                Jo’natish
+                <img class="form__btn-img" src="./images/right.svg" alt="right frame" width="22" height="22">
+              </button>
+            </form>
+          </div>
+
+          <div class="contact__summary summary">
+            <h2 class="summary__title">
+              Ux & Ui design
+            </h2>
+            <p class="summary__text">
+              In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
